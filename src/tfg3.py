@@ -25,8 +25,8 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neighbors import KNeighborsClassifier
 
 SEED = 42
-DATA_PATH = "Wellbeing_and_lifestyle_data_Kaggle.csv"
-OUTPUT_DIR = "figures"
+DATA_PATH = "../data/Wellbeing_and_lifestyle_data_Kaggle.csv"
+OUTPUT_DIR = "../outputs"
 
 # Create output folder
 os.makedirs(OUTPUT_DIR, exist_ok=True)
